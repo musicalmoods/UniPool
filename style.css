@@ -90,16 +90,30 @@
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #999999;
     color: black;
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: lightcoral;
     color: white;
+}
+
+.bodyfont {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.madeby {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+    padding: 15px;
 }
