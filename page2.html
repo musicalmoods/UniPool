@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="musicalmoods">
     <meta http-equiv="refresh" content="120">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="UniPool_Logo.png">
     <link rel="stylesheet" href="style.css">
     <title>UniPool</title>
@@ -12,11 +13,14 @@
 
 <body style="background-color: royalblue">
     <!--Change bg colour later-->
-    <div class="topnav">
+    <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
         <a href="page1.html">Example Page 1</a>
-        <a class="active" href="page2.html">Example Page 2</a>
+        <a href="page2.html" class="active">Example Page 2</a>
         <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div style="background-color: #444444;">
         <h1 style="color:orange; font-family:verdana; padding-top: 50px; padding-left: 15px;">Example Page 2</h1>
@@ -26,6 +30,16 @@
             musicalmoods
         </p>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
