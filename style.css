@@ -135,7 +135,7 @@
     background: #ccc;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .topnav .search-container {
         float: none;
     }
@@ -155,7 +155,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -166,7 +166,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .topnav.responsive {
         position: relative;
     }
