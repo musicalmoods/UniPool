@@ -95,6 +95,11 @@
     font-size: 17px;
 }
 
+.topnav a.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .topnav a:hover {
     background-color: #999999;
     color: black;
@@ -159,7 +164,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 99%;
     left: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
